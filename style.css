@@ -1,0 +1,171 @@
+
+/*BEM VINDO AO CABARÉ QUE É O CSS, BRINCADEIRAS A PARTE ESTÁ TUDO ORGANIZADO EM SEUS DEVIDOS NOMES!*/
+
+
+
+
+
+/*navbar*/
+.navbar{
+     display:flex;
+     justify-content:space-between;
+    
+    background-color: rgb(61, 0, 67);
+
+
+
+}
+
+/*fim-navbar*/
+
+
+/*body*/
+.bod{
+  background-color: rgb(240, 238, 233);
+}
+/*fim-body*/
+
+
+/*logo*/
+.logocima{
+    position:relative;
+    
+}
+/*fim-logo*/
+
+
+
+/*carrossel*/
+.carro{
+     width:fit-content;
+    
+}
+/*fim-carrossel*/
+
+
+/*carrinho*/
+.carrinho{
+ background-color: rgba(0, 0, 0, 0);
+ cursor:col-resize;
+ 
+}
+.imgcarrinho{
+ 
+  background-color: rgba(220, 212, 235, 0);
+  border:none;
+}
+/*fim-carrinho*/
+
+
+
+
+/* Estilo da grade de categorias */
+
+    /* Estilo da imagem nas categorias */
+    .categoria-imagem {
+      width: 100%;
+      height: auto;
+      border-radius: 500px;
+      transition: 3s;
+      transition: transform 0.2s; /* Adiciona uma transição suave */
+    }
+   
+
+    /* Estilo do botão nas categorias */
+    .categoria-botao {
+      margin-top: 16px;
+      background-color:rgb(158, 185, 236);
+      border:none;
+      transition: 0.3s;
+      border-radius: 3000px;
+      width: 250px;
+      height: 10%;
+      color:  rgb(61, 0, 67);
+     
+     
+      padding: 15px 30px; /* Ajuste o padding conforme necessário para aumentar o tamanho do botão */
+      font-size: 20px; /* Ajuste o tamanho da fonte se necessário */
+     cursor:pointer;
+
+    }
+  .categoria-botao:hover{
+    background-color: rgba(118, 166, 193, 0);
+    font-size:24px;
+    border-color:rgb(131, 83, 175);
+    width:80%;
+    background-color: rgba(61, 0, 67, 0.834);
+    color: rgb(137, 169, 229)
+  }
+
+
+
+
+
+
+/*fim- estilo das categorias*/
+
+
+ /* Estilo para espaçamento entre os cards */
+ .card{
+  margin-top: 150px;
+  width: 300px;
+ border-radius: 40px;
+ background-color: aqua;
+}
+.btna{
+  height: 50%;
+  width: 40%;
+  
+
+}
+.btna:hover{
+  background-color: rgb(182, 27, 27);
+}
+.carousel-item{
+  border-radius: 400px;
+}
+
+ /* Estilo do footer */
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer {
+  background-color:rgb(61, 0, 67);
+  color: #fff;
+  padding: 50px 0;
+  position: relative;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.social-icons li {
+  margin: 0 15px;
+  width: 50%;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+      justify-content: space-around;
+  }
+}
+
+/*fim-footer*/
+
+
+
+
